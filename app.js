@@ -20,7 +20,7 @@ function weather() {
         alert("Geolocation is not supported by this browser.");
     }
 }
-const key = "82005d27a116c2880c8f0fcb866998a0";
+const key = "afe224adeda3126a4470bdcc75a93e2f";
 
 function setPosition(position) {
     let latitude = position.coords.latitude;
