@@ -13,6 +13,7 @@
     background-position: center;
     background-size: cover;
     color: white;
+    background: linear-gradient(rgba(500, 50, 100, 0.5), rgba(50, 50, 100, 0.5));
 }
 
 .data {
@@ -58,7 +59,7 @@
 }
 
 .details table {
-    width: 75%;
+    width: 85%;
 }
 
 th,
@@ -68,15 +69,16 @@ td {
 }
 
 th {
-    color: lightgray;
+    color: rgb(219, 68, 42);
 }
 
 td {
-    color: lightgray;
+    color: white;
+    font-weight: 500;
 }
 
 button {
-    background-color: #3BAF9F;
+    background-color: #618ea3;
     width: 230px;
     height: 60px;
     text-align: center;
