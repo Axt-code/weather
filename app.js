@@ -43,7 +43,6 @@ function getWeather(latitude, longitude) {
             document.querySelector('.des').innerHTML = `${data.weather[0].main}`;
             document.querySelector('#min-temp').innerHTML = `${parseInt(data.main.temp_min-273)}`;
             document.querySelector('#max-temp').innerHTML = `${parseInt(data.main.temp_max-273)}`;
-            document.querySelector('#Visib').innerHTML = `${data.visibility}`;
             document.querySelector('#Pressure').innerHTML = `${data.main.pressure}`;
             document.querySelector('#Humidity').innerHTML = `${data.main.humidity}`;
 
