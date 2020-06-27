@@ -16,42 +16,43 @@
             <h1></h1>
             <div class="city">Singrauli</div>
             <div class="date"><span id="day">sat</span>, <span id="date">6</span> <span id="month"> jul</span></div>
-            <div class="temp"><span id="temp">25</span>&degC</div>
+            <div class="temp"><span id="temp">25</span>&deg C</div>
             <div class="des">Rain</div>
-            <div class="weather-icon"><img src="icons/unknown.png"></div>
-
+            <div class='img'>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+            </div>
         </div>
         <div class="details">
             <table>
 
                 <tr>
-                    <th>Min-Temp</th>
+                    <th><i class="fas fa-temperature-low"></i> Min-Temp</th>
                     <td><span id="min-temp">18</span>&degC</td>
                 </tr>
 
                 <tr>
-                    <th>Max-Temp</th>
+                    <th><i class="fas fa-temperature-high"></i> Max-Temp</th>
                     <td><span id="max-temp">30</span>&degC</td>
                 </tr>
 
                 <tr>
-                    <th>Visibility</th>
-                    <td><span id="Visib">6</span>m</td>
-                </tr>
-
-                <tr>
-                    <th>Air Pressure</th>
+                    <th><i class="fas fa-compress"></i> Air Pressure</th>
                     <td><span id="Pressure">1001</span>hPa</td>
                 </tr>
 
                 <tr>
-                    <th>Humidity</th>
-                    <td><span id="Humidity">55</span>%</td>
+                    <th><i class="fas fa-tint"></i> Humidity</th>
+                    <td><span id="Humidity">65</span>%</td>
                 </tr>
 
                 <tr>
-                    <th>Wind Speed</th>
-                    <td><span id="Wind">65</span> Km/h</td>
+                    <th><i class="fas fa-wind"></i> Wind Speed</th>
+                    <td><span id="Wind">65</span>Km/h</td>
+                </tr>
+
+                <tr>
+                    <th><i class="fas fa-braille"></i> Visibility</th>
+                    <td><span id="Visib">9000</span>m</td>
                 </tr>
             </table>
             <button id="check" onclick="weather()">Get Weather</button>
