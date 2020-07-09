@@ -60,7 +60,7 @@
     flex-direction: column;
     justify-content: center;
     line-height: 1.6;
-    font-family: Lucida Sans Unicode;
+    
     font-size: 22px;
 }
 
@@ -79,7 +79,7 @@ th {
 }
 
 td {
-    color: rgb(82, 134, 163);
+    color: white;
     font-weight: 600;
 }
 
