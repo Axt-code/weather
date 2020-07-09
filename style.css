@@ -15,7 +15,9 @@
     color: white;
 }
 @media (max-width: 600px) {
-    .header{  background: url('https://www.droidviews.com/wp-content/uploads/2018/08/Oppo-Realme-Wall-DroidViews-10.jpg')}
+    .header{  background: url('https://www.droidviews.com/wp-content/uploads/2018/08/Oppo-Realme-Wall-DroidViews-10.jpg');
+               background-position: center;
+    background-size: cover; }
 }
 
 .data {
