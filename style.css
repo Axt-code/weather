@@ -1,6 +1,7 @@
 * {
     padding: 0cm;
     margin: 0cm;
+      font-family: "Times New Roman", Times, serif;
 }
 
 .header {
@@ -15,7 +16,7 @@
     color: white;
 }
 @media (max-width: 600px) {
-    .header{  background: url('https://www.droidviews.com/wp-content/uploads/2018/08/Oppo-Realme-Wall-DroidViews-10.jpg');
+    .header{  background: url('https://www.fonewalls.com/wp-content/uploads/720x1528-Background-HD-Wallpaper-395-300x637.jpg');
                background-position: center;
     background-size: cover; }
 }
@@ -30,7 +31,7 @@
     padding-top: 30PX;
     line-height: 1.6;
     font-size: 20px;
-    font-family: sans-serif;
+     font-family: "Times New Roman", Times, serif;
 }
 
 .img {
@@ -42,6 +43,7 @@
 .city {
     font-size: 40px;
     font-weight: 700;
+      font-family: "Times New Roman", Times, serif;
     color: rgb(219, 68, 42);
     text-transform: uppercase;
 }
