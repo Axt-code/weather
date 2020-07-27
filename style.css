@@ -114,3 +114,9 @@ button:hover {
     padding: 18px;
     margin: 0;
 }
+
+@media(max-width:600px) {
+    .details {
+        font-size: 18px;
+    }
+}
